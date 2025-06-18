@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madhura's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #212121;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li::marker {
+      color: #007bff;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background: #0056b3;
+    }
+
+    footer {
+      background-color: #212121;
+      color: #aaa;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 10px 10px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Madhura</h1>
+    <p>Web Developer | Creative Thinker</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="card">
+      <h2>Welcome!</h2>
+      <p>Hello, I'm <strong>Madhura</strong>, a passionate developer focused on building clean and user-friendly websites. This portfolio showcases my skills, achievements, and ways to get in touch. Scroll down to explore more!</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I’m a front-end developer with a love for intuitive design and clean code. Skilled in HTML, CSS, JavaScript, and basic frameworks, I aim to create digital experiences that are smooth and engaging. My passion lies in merging creativity with technology to build delightful user interfaces.</p>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <div class="card">
+      <h2>Certificates</h2>
+      <ul>
+        <li>Responsive Web Design - freeCodeCamp</li>
+        <li>JavaScript Basics - Coursera</li>
+        <li>Front-End Developer Badge - HackerRank</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:madhura@example.com">madhura@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/madhura" target="_blank">linkedin.com/in/madhura</a></p>
+      <p>GitHub: <a href="https://github.com/madhura" target="_blank">github.com/madhura</a></p>
+      <a class="button" href="mailto:madhura@example.com">Send Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Madhura. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
